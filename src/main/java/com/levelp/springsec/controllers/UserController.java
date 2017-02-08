@@ -28,7 +28,7 @@ public class UserController {
 
         service.register(dto);
 
-        return new ModelAndView("redirect:login");
+        return new ModelAndView("redirect:signin");
     }
 
     @RequestMapping(value = "/signin", method = RequestMethod.GET)

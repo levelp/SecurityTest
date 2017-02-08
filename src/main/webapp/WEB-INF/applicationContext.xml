@@ -37,6 +37,8 @@ http://www.springframework.org/schema/security
         <property name="annotatedClasses">
             <list>
                 <value>com.levelp.springsec.model.User</value>
+                <value>com.levelp.springsec.model.Account</value>
+                <value>com.levelp.springsec.model.Bill</value>
             </list>
         </property>
     </bean>
